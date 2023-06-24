@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -233,6 +235,9 @@ header.active {
 	margin-top: 1rem;
 	border-radius: 0.5rem;
 }
+.home-icons a {
+	display: flex;
+}
 .home-icons img {
 	padding: 0.5rem 0.4rem;
 	margin: 0.4rem;
@@ -362,7 +367,6 @@ header.active {
 	font-size: 1rem;
 	display: flex;
 	justify-content: space-between;
-	/* align-self: flex-end; */
 }
 .project-info .name-project {
 	padding: 1rem 1rem 0.2rem 0;
@@ -448,10 +452,11 @@ header.active {
 }
 /* ABOUT ME SECTION */
 .about {
+	font-family: 'Roboto Condensed', sans-serif;
 	padding: 1.6rem;
 	font-size: 1.1rem;
 	color: var(--textColor);
-	text-align: justify;
+	text-align: center;
 	line-height: 1.3rem;
 }
 .quote {
@@ -649,6 +654,10 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	padding: 0 1rem;
+}
+.modal-buttons a {
+	text-decoration: none;
+	color: var(--White);
 }
 .modal-buttons button {
 	background: var(--main);

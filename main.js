@@ -83,19 +83,16 @@ const renderPopap = function () {
 	const modal = document.createElement("div");
 	modal.innerHTML = `
 		<img src="${item.image}" alt="Project-${item.id}">
-	<div class="modal-description">
-	  <p>${item.description}</p>
-	</div>
 	<div class="modal-buttons">
-		<button class="modal-check">Source Code</button>
+		<button class="modal-check"><a href="${item.linkGit}">Source Code</a></button>
+		<button class="modal-check"><a href="${item.linkLive}">Live Code</a></button>
 		<button class="close-modal">X</button>
 	</div>
 `;
 	modal.classList.add("modal", "active");
 	popapWrap.appendChild(modal);
 
-	const closeModalBtn = document
-	.querySelector(".close-modal");
+	const closeModalBtn = document.querySelector(".close-modal");
 	closeModalBtn.addEventListener("click", () => {
 		popapWrap.innerHTML = "";
 		popapWrap.classList.remove("active");
