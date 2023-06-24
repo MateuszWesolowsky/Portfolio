@@ -2,7 +2,8 @@ const projects = [
     {
         id: 0,
         image: "/images/projects/Project-1.PNG",
-        link: '#',
+        linkLive: 'https://main--verdant-sprinkles-2393b4.netlify.app/',
+        linkGit: 'https://github.com/MateuszWesolowsky/Media-SHop'
     },
     {
         id: 1,
@@ -13,11 +14,13 @@ const projects = [
     {
         id: 2,
         image: "/images/projects/Project-3.PNG",
-        link: '#',
+        linkLive: 'https://main--verdant-sprinkles-2393b4.netlify.app/',
+        linkGit: 'https://github.com/MateuszWesolowsky/Portfolio'
     },
     {
         id: 3,
         image: "/images/projects/Project-4.jpg",
-        link: '#',
+        linkLive: 'https://main--verdant-sprinkles-2393b4.netlify.app/',
+        linkGit: 'https://github.com/MateuszWesolowsky/Media-SHop'
     }
 ]
