@@ -44,7 +44,7 @@ menuLinks.forEach((li) =>
 		const link = e.target.dataset.key;
 		const section =
 			document.querySelector(`.${link}`).getBoundingClientRect().top +
-			window.pageYOffset -
+			window.scrollY -
 			50;
 
 		menu.classList.remove("active");
@@ -58,7 +58,7 @@ menuLinks.forEach((li) =>
 const showProjects = () => {
 	const scrolValue = window.scrollY;
 	document.querySelectorAll(".show-project").forEach((project) => {
-		if (scrolValue > project.offsetTop - project.clientHeight / 2) {
+		if (scrolValue > project.offsetTop - project.clientHeight / 1.5) {
 			project.classList.add("active");
 		}
 		if (scrolValue < 100) {
