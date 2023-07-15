@@ -84,8 +84,8 @@ const renderPopap = function () {
 	modal.innerHTML = `
 		<img src="${item.image}" alt="Project-${item.id}">
 	<div class="modal-buttons">
-		<button class="modal-check"><a href="${item.linkGit}">Source Code</a></button>
-		<button class="modal-check"><a href="${item.linkLive}">Live Code</a></button>
+		<button class="modal-check"><a href="${item.linkGit}" target="_blank">Source Code</a></button>
+		<button class="modal-check"><a href="${item.linkLive}" target="_blank">Live Code</a></button>
 		<button class="close-modal">X</button>
 	</div>
 `;
