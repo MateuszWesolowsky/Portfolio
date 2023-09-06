@@ -20,7 +20,7 @@ const projects = [
 	{
 	    id: 3,
 	    image: "/images/projects/Project-4.PNG",
-	    linkLive: '/',
+	    linkLive: 'https://movie-popcorn-app.netlify.app/',
 	    linkGit: 'https://github.com/MateuszWesolowsky/Movie-App'
 	}
 ];
